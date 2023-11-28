@@ -1,0 +1,219 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.travel-image{
+    width:60%;
+    margin-left:100px;
+    display: flex;
+}
+.nav-bar{
+    font-size:40px;
+    /* margin-top:20px; */
+}
+.main-image{
+    width:100%
+}
+.quote-therapy{
+   font-size:40px;
+   text-align:center;
+
+}
+
+.anchor-btn{
+    display:block;
+    text-align: center;
+    margin-top:10px;   
+}
+.book-btn{
+    background:#ff9800;
+    color:#fff;
+    text-align:center;
+    border-radius:5px;
+    font-size:30px;
+    border:none;
+}
+.book-btn:hover{
+    cursor:pointer;
+    background-color: green;
+}
+.nav-list{
+    text-decoration: none;
+
+}
+
+
+
+
+
+footer{
+    background-color: grey;
+    margin-top:31%;
+
+}
+.footer-div{
+    display:flex;
+    flex-wrap:wrap;    
+}
+.foot-div{
+    /* margin-right:40px; */
+    margin:10px 10px;
+}
+.text-message{
+    height:100px;
+}
+.send-btn{
+    background-color: red;
+    font-size:20px;
+    border:none;
+    border-radius:10px;
+    height:35px;
+    width:50%;
+}
+.sub-btn{
+    background-color: red;
+    font-size:20px;
+    border:none;
+    border-radius:10px;
+}
+i{
+    margin-left:10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:500px){
+    nav{
+        display:flex;
+    }
+    .travel-image{
+        width:10%;
+    }
+    .nav-bar{
+        margin-left:100px;
+    }
+    .nav-list{
+        margin-left:10px;
+    }
+    .main-image{
+        position: absolute;
+    }
+    .quote-therapy{
+        position:relative;
+    }
+    .anchor-btn{
+        position:relative;
+    }
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.abs-image{
+    width:100%;
+}
+.form-label{
+    font-size:30px;
+}
+.form-input{
+    width:100rem;
+    height:40px;
+    border:none;
+    outline:none
+}
+input{
+    font-size:25px;
+    color:rgb(2, 92, 2);
+}
+select{
+    color:rgb(2, 92, 2);
+}
+option{
+    color:rgb(2, 92, 2);
+}
+.search-btn{
+   border:none;
+   background-color:grey;
+   font-size:30px;
+   border-radius:15px;
+   width:200px;
+   height:60px;
+   margin-left:30%;
+}
+.form-input:hover{
+    border-bottom:4px solid blue;
+}
+.search-btn:hover{
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:500px){
+    .abs-image{
+        position:absolute;
+    }
+    .whole-form{
+        position:absolute;
+    }
+}
